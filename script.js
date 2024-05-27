@@ -81,7 +81,7 @@ customElements.define(
           diveComment.querySelector("slot").textContent =
             diveCommentInput.value;
           if (diveComment.querySelector("slot").textContent === "") {
-            alert("Комментарий не может быть пустым");
+            alert("Напишите что-нибудь)");
           } else {
             diveComments.insertBefore(diveComment, diveCommentInput);
             diveCommentInput.remove();
